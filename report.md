@@ -1,0 +1,1 @@
+### During this lab I learned about Git and GitHub and how they help in managing code more effectively it make it easier to organize track and store all our code in one repository
