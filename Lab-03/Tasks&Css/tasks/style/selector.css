@@ -1,0 +1,109 @@
+/* 5 Basic Seleectors */
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+ /* Class selector */
+.intro {
+    padding: 20px;
+    background-color: aliceblue;
+}
+/* id selector */
+#first-para {
+    color: red;
+    font-weight: bold;
+}
+/* Universal selector */
+* {
+    box-sizing: border-box;
+}
+/* Grouping selector */
+h1, h2 {
+    text-align: center;
+}
+
+
+
+
+/* 3 Attribute selectors */
+
+/* Select input with placeholder attribute */
+input[placeholder] {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid black;
+}
+
+/* Select link with title attribute */
+a[title] {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+/* Select button of type button */
+button[type="button"] {
+    background-color: yellowgreen;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* combinators */
+
+/*descendant combinator      */
+header h1 {
+    font-size: 2.5em;
+}
+/* child combinator */
+ul > li {
+    list-style: none;
+    padding: 0;
+}
+/* Adjacent sibling combinator */
+p + p {
+    margin-top: 10px;
+    font-style: italic;
+}
+/* general sibling combinator    */
+p ~ a {
+    color: black;
+}
+
+/* 5 Pseudo-classes */
+/* hover on links */
+a:hover {
+    color: goldenrod;
+}
+/* first-child of ul */
+ul li:first-child {
+    font-weight: bold;
+}
+/* last-child of ul */
+ul li:last-child {
+    color:brown;
+}
+/* nth-child */
+ul li:nth-child(2) {
+    color: #004d40;
+}
+/*   focus on input */
+input:focus {
+    border-color: blue;
+    outline: none;
+}
+
+/* 2 Pseeudo-elements */
+/* before pseudo-element */
+h2::before {
+    content: "★";
+    color: gold;
+}
+/* after pseudo-element */
+h2::after {
+    content: " ★";
+    color: gold;
+}

@@ -1,0 +1,146 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #fff8f5, #ffe5d8);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+}
+
+
+header {
+  background-color: lightsalmon;
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: lightslategrey; 
+  font-weight: bold;
+  margin: 0 20px;
+  font-size: 18px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: black;
+  transform: scale(1.1);
+}
+
+section {
+  margin: 40px auto;
+  max-width: 700px;
+  background-color: white;
+  padding: 30px 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(255, 160, 122, 0.3);
+  text-align: left;
+}
+
+h1, h2, h3 {
+  color: #b34700;
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+  color: #444;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+form {
+  margin-top: 20px;
+  background: #fff7f2;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #ffd2b3;
+  box-shadow: 0 3px 10px rgba(255, 160, 122, 0.2);
+}
+
+label {
+  font-weight: bold;
+  color: #b34700;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: lightsalmon;
+  box-shadow: 0 0 5px rgba(255, 160, 122, 0.4);
+  outline: none;
+}
+
+button {
+  background-color: lightsalmon;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #ff9966;
+  transform: scale(1.05);
+}
+
+img {
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 14px;
+  color: #333;
+  margin-top: 40px;
+}
+
+hr {
+  width: 80%;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+}
+
+a {
+  color: lightsalmon;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff9966;
+}

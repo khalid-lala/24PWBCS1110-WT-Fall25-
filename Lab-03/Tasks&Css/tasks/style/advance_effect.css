@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+    padding: 30px;
+}
+
+.gradient-text {
+    font-size: 40px;
+    background: linear-gradient(to right, orange,Red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.checkbox-container input {
+    display: none;
+}
+
+.checkmark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 20px;
+    width: 20px;
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.checkbox-container input:checked + .checkmark {
+    background: #28a745;
+}
+
+.radio-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.radio-container input {
+    display: none;
+}
+
+.radiomark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 20px;
+    width: 20px;
+    background: #ccc;
+    border-radius: 50%;
+}
+
+.radio-container input:checked + .radiomark {
+    background: #007bff;
+}
+
+.loader {
+    margin: 30px auto;
+    border: 6px solid #ddd;
+    border-top: 6px solid #ff006e;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.clipped-text {
+    font-size: 50px;
+    background: url(../images/bg_image.jpg) center/cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 40px 0;
+}
+
+.shadow-box {
+    width: 250px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2),
+                -5px -5px 15px rgba(255,255,255,0.6);
+}
+
+.shadow-box p {
+    margin: 0;
+}

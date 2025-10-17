@@ -1,0 +1,77 @@
+/* 3--Google Font */
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
+.montserrat-font {
+    font-family: 'Montserrat', sans-serif;
+}
+.lobster-font {
+    font-family: 'Lobster', cursive;
+}
+
+/*  fFont Sizes */
+.size-px {
+    font-size: 16px;
+}
+.size-em {
+    font-size: 1.5em;
+}
+.size-rem {
+    font-size: 2rem;
+}
+.size-percent {
+    font-size: 120%;
+}
+
+/*Text Alignment */
+.align-left {
+    text-align: left;
+}
+.align-center {
+    text-align: center;
+}
+.align-right {
+    text-align: right;
+}
+
+/*Text Decoration and transformation */
+.underline {
+    text-decoration: underline;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+
+/* Text shedow Effects */
+.shadow-light {
+    text-shadow: 1px 1px 2px tomato;
+}
+
+.shadow-strong {
+    text-shadow: 2px 2px 2px skyblue;
+}
+
+/* generally Styling for page */
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+    background-color: aquamarine;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+section {
+    background-color:rgb(238, 230, 220);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}

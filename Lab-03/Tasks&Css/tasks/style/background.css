@@ -1,0 +1,47 @@
+header{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+section{
+
+  margin: 10px;
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+
+}
+
+.solid-bg{
+  background-color: seagreen;
+}
+.image-bg-repeat{
+  background-image: url(../images/bg_image.jpg);
+  background-repeat:repeat ;
+
+
+}
+.image-bg-no-repeat{
+  background-image: url(../images/bg_image.jpg);
+  background-repeat:repeat ;
+  background-size:cover ;
+
+}
+.linear-gradient-bg{
+  background: linear-gradient(to right, orange ,red);
+  
+} 
+.radial-gradient-bg {
+    background: radial-gradient(circle,blue, skyblue
+    );
+}
+.multi-bg-blend {
+    background-image: 
+        url('https://www.transparenttextures.com/patterns/diagmonds-light.png'),
+        linear-gradient(to bottom, rgba(255,0,150,0.5), rgba(0,200,255,0.5));
+    background-blend-mode: multiply;
+    background-size: cover, cover;
+}

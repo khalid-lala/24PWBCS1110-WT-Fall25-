@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><Registration-Form-Page></Registration-Page></title>
+    <link rel="stylesheet" href="../tasks/style/forms.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Registration Form</h1>
+s
+
+    <form id="registerForm">
+     
+      <div class="forms-group">
+
+        <label for="Username">Username</label>
+        <input type="text" name="Username" id="Username" placeholder="Enter Your Username" required>
+        <span class="error">Please Enter a Valid USername</span>
+      </div>
+
+      <div class="forms-group">
+        <label for="email">Email</label>
+        <input type="email"name="email"id="email" placeholder="Enter Your Email">
+        <span class="error">Please Enter Your Valid Email</span>
+        
+
+      </div>
+    
+      <div class="forms-group">
+        <label for="Password">Password</label>
+        <input type="password"name="Password"id="Password" placeholder="Enter Your Password" required>
+      </div>
+
+      <div class="forms-group">
+        <label for="country">Country</label>
+        <select name="country" id="country">
+          <Option value="">Select Your Country</Option>
+          <Option value="Pak">Pakistan</Option>
+          <Option value="Ch">China</Option>
+          <Option value="Saudi">Saudi Arabia</Option>
+        </select>
+
+      </div>
+
+      <button type="submit">Registration</button>
+      <p class="success">Registration Successfull</p>
+    
+    </form>
+
+
+
+  </div>
+
+  
+</body>
+</html>
